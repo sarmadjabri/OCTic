@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from skimage.util import random_noise
 
-image = cv2.imread('image.jpg')
+image = cv2.imread('healthy.jpeg')
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
 image_float = image / 255.0
